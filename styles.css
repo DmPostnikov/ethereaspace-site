@@ -558,3 +558,15 @@ textarea { resize: vertical; min-height: 80px; }
     .step-card { padding: 2.5rem 1.5rem; }
     .product-description, .how-it-works, .testimonials, .form-section { padding: 5rem 0; }
 }
+
+/* --- Legal Pages --- */
+.page-legal { padding-top: 80px; }
+.legal-content { padding: 4rem 0 6rem; }
+.container-sm { max-width: 800px; margin: 0 auto; }
+.legal-content h1 { font-size: clamp(2.5rem, 4vw, 3rem); margin-bottom: 2rem; color: var(--brand-dark); line-height: 1.2; }
+.legal-content h3 { font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--brand-dark); }
+.legal-content p { margin-bottom: 1.5rem; font-size: 1.125rem; }
+.legal-content ul { margin-bottom: 2rem; padding-left: 1.5rem; }
+.legal-content li { margin-bottom: 0.75rem; font-size: 1.125rem; }
+.legal-content a { color: var(--primary-btn); text-decoration: underline; text-underline-offset: 4px; }
+.legal-content a:hover { color: var(--primary-btn-hover); }
